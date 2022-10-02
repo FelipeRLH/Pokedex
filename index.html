@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Pokedex</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <img id="logoPokemon" src="./style/International_Pokémon_logo.svg.png" alt="">
+
+        <div id="container-pokedex">
+            <img id="pokedex" src="./style/pokedex.png" alt="">
+
+            <!-- VIEWPORT 1 -->
+            <div id="view1">
+                <!-- <img id="menor9cm" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="">
+                <h2 class="namePokemon">#04-Charmander</h2> -->
+            </div>
+
+            <!-- VIEWPORT 2 -->
+            <div>
+                <h4 id="type">
+                    <span class="spanView2">Tipo:</span>
+                    <span>Fogo</span>
+                </h4>
+
+                <div id="stats">
+                    <div class="hp">35<br><span class="spanView2">HP</span></div>
+                    <div class="atk">35<br><span class="spanView2">ATK</span></div>
+                    <div class="def">35<br><span class="spanView2">DEF</span></div>
+                    <div class="speed">35<br><span class="spanView2">SPEED</span></div>
+                </div>
+            </div>
+
+
+            <!--FORMULÁRIO DE BUSCA -->
+            <form id="formBusca">
+                <input id="inputBusca" type="text" placeholder="Ex: Pikachu ou '25'" autocomplete="off">
+                <button id="pesquisarPok" type="submit"><img id="imgbtn" src="./style/botão normal.png"></button>
+            </form>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
