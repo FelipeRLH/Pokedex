@@ -4,14 +4,14 @@ let form = document.getElementById("formBusca")
 let urlApi = "https://pokeapi.co/api/v2/pokemon/";
 
 // VIEWPORT1
-let view1 = document.getElementById("view1")
+let view1 = document.querySelector(".view1")
 
 // VIEWPOR2
 let type = document.querySelector("#type")
 let sts = document.querySelector("#stats")
 
-
-
+// VIEWPOR3/4/5
+let view45 = document.getElementById("view45")
 
 
 
@@ -28,8 +28,7 @@ btn.addEventListener("mouseup", () => {
     btn.innerHTML = `<img id="imgbtn" src="./style/botão normal.png">`
 
     let nameInput = document.getElementById("inputBusca")
-    let nameValue = nameInput.value.trim().toLocaleLowerCase()
-
+    let nameValue = nameInput.value.trim().toLocaleLowerCase();
 
     // FETCH TRATAMENTO
     let fetchPokemon = async e => {
@@ -41,6 +40,8 @@ btn.addEventListener("mouseup", () => {
         View2Type(data)
         View2STATS(data)
 
+        xpBaseStats(data)
+        View45Stats(data)
 
         console.log(data)
     }
@@ -193,7 +194,6 @@ let View2Type = (e) => {
                 break;
         }
     }
-
     else {
         type.innerHTML = `<h4><span class="spanView2">Tipo:</span> 
                         <span id="spanType" class="tipos">${e.types[0].type.name}</span></h4>`
@@ -266,3 +266,23 @@ let View2STATS = (e) => {
     <div class="speed">${e.stats[5].base_stat}<br><span class="spanView2">SPEED</span></div>
     `
 }
+
+// -------- VIEWPORT 3/4/5 ---------
+let xpBaseStats = (e) =>{
+    xpBase.innerHTML = `<div>${e.base_experience}<br><span class="spanView2">Xp Inicial</span></div>`
+}
+
+let View45Stats = (e) => {
+
+    let altura = e.height / 10
+    let peso =  e.weight / 10
+    
+    view45.innerHTML = `
+    <div>
+        Altura: ${altura}m
+    </div>
+    <div>
+        Peso: ${peso}Kg
+    </div>`
+}
+
