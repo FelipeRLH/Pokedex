@@ -7,10 +7,9 @@ A tela azul do fundo do visor e os Botões eu desenhei no PhotoShop para estiliz
 
 <em>(Projeto em andamento)</em>
 
-## Layout web
-![pokedex-1](https://user-images.githubusercontent.com/108680857/193470119-63275140-c804-42be-9660-bd353023757b.png)
+## Layout web![Captura de tela 2022-10-04 144016](https://user-images.githubusercontent.com/108680857/193888874-1e10814f-b4a1-43b2-a45a-b4a888cb9815.png)
 
-![pokedex-1 vid](https://user-images.githubusercontent.com/108680857/193470582-38200939-135d-414d-829b-f44781befa13.gif)
+![proj video](https://user-images.githubusercontent.com/108680857/193888532-4acb0b1a-27d5-4756-b323-35b77184c46e.gif)
 # Tecnologias utilizadas
 ## Front end
 - HTML
