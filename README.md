@@ -1,6 +1,6 @@
 # Sobre o projeto
 
-Este projeto é uma Pokedex que estou desenvolvendo sozinho. A aplicação se refere a um objeto utilizado no anime "Pokemon" usado como um catálogo de pokemons. 
+Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime "Pokemon" usado como um catálogo de pokemons. 
 Pequei a imagem da pokedex no Google imagens e estou desenvolvendo em cima dela.
 
 A tela azul do fundo do visor e os Botões eu desenhei no PhotoShop para estilizar quando pressiona-los.
