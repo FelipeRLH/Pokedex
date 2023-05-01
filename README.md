@@ -1,11 +1,7 @@
 # Sobre o projeto
 
-Este projeto é uma Pokedex que desenvolvi sozinho. A aplicação se refere a um objeto utilizado no anime "Pokemon" usado como um catálogo de pokemons. 
-Pequei a imagem da pokedex no Google imagens e estou desenvolvendo em cima dela.
+Este projeto é uma Pokedex que eu desenvolvi sozinho. A aplicação se trata de uma ferramenta utilizada no anime "Pokemon", que funciona como um catálogo de Pokemons. Para o desenvolvimento, utilizei uma imagem da Pokedex obtida através do Google Imagens e a estilizei utilizando o Photoshop para adicionar a tela azul de fundo do visor e os botões.
 
-A tela azul do fundo do visor e os Botões eu desenhei no PhotoShop para estilizar quando pressiona-los.
-
-<em>(Projeto em andamento)</em>
 
 ## Layout web![Captura de tela 2022-10-04 144016](https://user-images.githubusercontent.com/108680857/193888874-1e10814f-b4a1-43b2-a45a-b4a888cb9815.png)
 
